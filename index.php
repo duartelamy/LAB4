@@ -1,9 +1,9 @@
 <?php
 
-include 'inc/db.inc';
+include 'inc/db.php';
 
 // put full path to Smarty.class.php
-require('/libs/Smarty.class.php');
+require('libs/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->template_dir = 'smarty/templates';
