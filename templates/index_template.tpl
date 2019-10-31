@@ -96,7 +96,7 @@
         <div class="panel-body">{$post.updated_at}</div>
         <div class="panel-body">{$post.created_at}</div>
         <div class="panel-body"><a href="#">{$post.email}</a></div>
-        <div class="panel-footer">My 1st Bootstrap</div>
+        <div class="panel-footer">{$post.content}</div>
       </div>
     </div>
     
