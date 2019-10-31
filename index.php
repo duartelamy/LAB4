@@ -1,6 +1,6 @@
 <?php
 
-include 'inc/db.php';
+include 'db.php';
 
 // put full path to Smarty.class.php
 require('libs/Smarty.class.php');
