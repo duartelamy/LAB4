@@ -6,10 +6,10 @@ include 'db.php';
 require('libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->template_dir = 'smarty/templates';
-$smarty->compile_dir = 'smarty/templates_c';
-$smarty->cache_dir = 'smarty/cache';
-$smarty->config_dir = 'smarty/configs';
+$smarty->template_dir = 'templates';
+$smarty->compile_dir = 'templates_c';
+$smarty->cache_dir = 'cache';
+$smarty->config_dir = 'configs';
 
 
 // ligação à base de dados
