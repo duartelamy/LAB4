@@ -16,7 +16,8 @@ $smarty->config_dir = 'configs';
 $db = dbconnect($hostname,$db_name,$db_user,$db_passwd);
 if($db) {
   // criar query numa string
-  $query  = "SELECT * FROM microposts, users";
+  $query  = "SELECT * FROM microposts, users ORDER BY
+              microposts.created_at DESC";
 
  
   // executar a query
