@@ -16,7 +16,8 @@ $smarty->config_dir = 'smarty/configs';
 $db = dbconnect($hostname,$db_name,$db_user,$db_passwd);
 if($db) {
   // criar query numa string
-  $query  = "SELECT * FROM filmes";
+  $query  = "SELECT * FROM microposts, users";
+
  
   // executar a query
   if(!($result = @ mysql_query($query,$db )))
